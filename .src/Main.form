@@ -482,6 +482,12 @@
         Text = ("Colorize Keyboard")
         Value = CheckBox.True
       }
+      { TextLabel1 TextLabel
+        MoveScaled(33,60,53,2)
+        Font = Font["-2"]
+        Foreground = Color.DarkGreen
+        Text = ("\nPlace your left index finger on the F key and your right index finger on the J key")
+      }
     }
     { Mahir_Container ScrollView
       MoveScaled(102,0,101,65)
@@ -600,11 +606,5 @@
   { Separator2 Separator
     MoveScaled(0,63,104,2)
     Visible = False
-  }
-  { TextLabel1 TextLabel
-    MoveScaled(36,60,53,2)
-    Font = Font["-2"]
-    Foreground = Color.DarkGreen
-    Text = ("\nPlace your left index finger on the F key and your right index finger on the J key")
   }
 }
