@@ -1,0 +1,20 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,52,45)
+  Text = ("About")
+  Icon = Picture["typoo-icon.png"]
+  Resizable = False
+  Utility = True
+  { PictureBox1 PictureBox
+    MoveScaled(2,2,10,10)
+    Picture = Picture.Load("typoo-icon.png")
+  }
+  { info_teks TextArea
+    MoveScaled(9,2,42,41)
+    Font = Font["8"]
+    Background = Color.Black
+    Foreground = Color.Green
+    ReadOnly = True
+  }
+}

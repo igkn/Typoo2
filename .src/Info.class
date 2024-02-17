@@ -1,0 +1,58 @@
+' Gambas class file
+
+' Typoo 2.0.2 [Code Name : KAS] ------------------------------------------------------------
+' Small software to learn fast typing
+' Licensed under GPL GNU General Public License Version 2
+' (c) 2011 - 2024 IGKN Foundation
+'
+' Developers:
+' * Project Founder : I Gede Kusuma Negara <gd.kusuma.negara@gmail.com>
+' * Programmer : Christian Kurniawan Ginting <saa7.go@gmail.com>
+' * Artwork Designer : Hamzah Fahrudin <karangdesaku@yahoo.co.id>
+' Coded on Gambas 3.19.0 in MX Linux
+'
+' We hope this software can be usefull and let's increase your typing speed..!
+'
+'
+' Thanks to:
+' * GAMBAS Developers
+' * Teman-teman komunitas ubuntu-indonesia.com (#ubuntu-indonesia@freenode)
+' * Teman-teman komunitas Blankon terutama pak de Gus Pur atas semangatnya ;)
+' ------------------------------------------------------------------------------------------
+
+Public Sub Form_Open()
+
+    Me.Center
+
+End
+
+Public Sub Form_Show()
+
+    Dim about_info As String
+
+    about_info = "Typoo 2.0.2 [Code Name: KAS]" & gb.CrLf &
+        "Small software to learn fast typing" & gb.CrLf &
+        "Licensed under GNU General Public License Version 2" & gb.CrLf &
+        "(c) 2011 - 2024 - IGKN Foundation" & gb.CrLf &
+        " " & gb.CrLf &
+        "Project Founder:" & gb.CrLf &
+        "I Gede Kusuma Negara" & gb.CrLf &
+        "<gd.kusuma.negara@gmail.com>" & gb.CrLf &
+        "" & gb.CrLf &
+        "Programmer:" & gb.CrLf &
+        "Christian Kurniawan Ginting" & gb.CrLf &
+        "<saa7.go@gmail.com>" & gb.CrLf &
+        "" & gb.CrLf &
+        "Artwork Designer:" & gb.CrLf &
+        "Hamzah Fahrudin" & gb.CrLf &
+        "<karangdesaku@yahoo.co.id>" & gb.CrLf &
+        " " & gb.CrLf &
+        "We hope this software can be usefull." & gb.CrLf &
+        "Let 's increase your typing speed..!" & gb.CrLf &
+        " " & gb.CrLf &
+        "Thanks to:" & gb.CrLf &
+        "Gambas Developers"
+
+    info_teks.Text = about_info
+
+End

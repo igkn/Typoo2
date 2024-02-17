@@ -1,0 +1,15 @@
+2.0.2 [16-2-2024] ---------------------------------------------
+- Maintenace Release
+
+2.0.1 [9-1-2013] ----------------------------------------------
+- Fix bug on close menu
+
+2.0.1 [2013]---------------------------------------------------
+- Porting to Gambas 3
+- Rewrite code and optimization code
+- Redesign interface
+- Support typing with ENTER
+- Improve excercise
+
+1.0 [2011]-----------------------------------------------------
+- First Release Coded with Gambas 2
