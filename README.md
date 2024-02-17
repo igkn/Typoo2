@@ -9,12 +9,12 @@ Typoo have two mode to help you how to increase your typing speed <br>
 
 *Training Mode*
 
-![typoo1](https://github.com/igkn/Typoo2/assets/128300426/a0bec11d-b007-4245-8cc9-10ac19213480)
+![typoo1](https://github.com/igkn/Typoo2/screenshot/typoo1.png)
 
 
 *Advanced Mode*
 
-![typoo2](https://github.com/igkn/Typoo2/assets/128300426/bbb55a82-4840-4bfa-aa09-2d79685701d9)
+![typoo1](https://github.com/igkn/Typoo2/screenshot/typoo1.png)
 
 
 ---
